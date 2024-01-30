@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.ImageView?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="112.0" prefWidth="600.0" style="-fx-background-color: yellow;">
+         <children>
+            <MenuButton layoutX="43.0" layoutY="68.0" mnemonicParsing="false" text="Iphone">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+              </items>
+            </MenuButton>
+            <TextField layoutX="142.0" layoutY="15.0" prefHeight="25.0" prefWidth="193.0" />
+             <Button layoutX="334.0" layoutY="15.0" mnemonicParsing="false" />
+            <MenuButton layoutX="142.0" layoutY="68.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="86.0" text="Samsung">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+              </items>
+            </MenuButton>
+            <MenuButton layoutX="244.0" layoutY="68.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" text="Oppe">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+              </items>
+            </MenuButton>
+            <MenuButton layoutX="350.0" layoutY="68.0" mnemonicParsing="false" text="MenuButton">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+              </items>
+            </MenuButton>
+             <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="334.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                   <image>
+                       <Image url="@../../../../../../../img/37.png" />
+                   </image>
+               </ImageView>
+            <Button layoutX="495.0" layoutY="68.0" mnemonicParsing="false" text="Accessory" />
+            <ImageView fitHeight="54.0" fitWidth="105.0" layoutX="25.0" layoutY="10.0">
+                <image>
+                    <Image url="@../../../../../../../img/36.png" />
+                </image>
+            </ImageView>
+            <Button layoutX="495.0" layoutY="17.0" mnemonicParsing="false" text="Login" />
+            <ImageView fitHeight="38.0" fitWidth="52.0" layoutX="399.0" layoutY="18.0" >
+                <image>
+                    <Image url="@../../../../../../../img/38.png" />
+                </image>
+            </ImageView>
+
+         </children></Pane>
+   </children>
+</AnchorPane>
